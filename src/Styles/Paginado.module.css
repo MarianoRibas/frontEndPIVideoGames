@@ -1,0 +1,35 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  /* .pages{
+      background-color: grey;
+      padding: 0;
+      border-color: green;
+  } */
+  .pagNum{
+    background-color: rgba(240, 255, 255, 0);
+    color: rgb(167, 167, 167);
+    font-family: Helvetica;
+    font-size: 100%;
+    font-weight: 0;
+    font-style: oblique;
+    transition-duration: 0.2s;
+    border: none;
+
+  }
+
+  .pagNum:hover{
+      /* font-size: 120%; */
+      filter: brightness(1.5);
+      transform: scale(1.3);
+  }
